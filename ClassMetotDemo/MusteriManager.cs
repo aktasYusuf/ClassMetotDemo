@@ -12,11 +12,15 @@ namespace ClassMetotDemo
         }
         public void MusteriListele( Musteri musteri)
         {
-            
+            Console.WriteLine("---------------------------");
             Console.WriteLine("Müşteri Adı: " + musteri.Ad);
+            Console.WriteLine(" ");
             Console.WriteLine("Müşteri soyadı: " + musteri.Soyad);
+            Console.WriteLine(" ");
             Console.WriteLine("Müşteri yaşı: " + musteri.Yas);
+            Console.WriteLine(" ");
             Console.WriteLine("Müşteri hesap numarası: " + musteri.HesapNo);
+            Console.WriteLine("---------------------------");
         }
         public void MusteriSil(Musteri musteri)
         {
